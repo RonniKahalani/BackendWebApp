@@ -2,14 +2,14 @@ package com.example.backend.command;
 
 public interface ICommand {
 
-    public long getId();
+    long getId();
 
-    public String getName();
+    String getName();
 
-    public String getScript();
+    String getScript();
 
-    public String getDescription();
+    String getDescription();
 
-    public String getArgs();
+    String getArgs();
 
 }
