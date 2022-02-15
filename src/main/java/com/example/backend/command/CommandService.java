@@ -11,9 +11,9 @@ public class CommandService {
     private List<ICommand> cmds = new ArrayList<ICommand>();
 
     public CommandService() {
-        cmds.add(new Command(0, "dir", "dir", "Lists root folder.", "c:\\"));
-        cmds.add(new Command(1, "Show file", "type", "Lists current folder.", "c:\\code\\backend\\help.md"));
-        cmds.add(new Command(2, "dir ..", "dir", "Lists code folder.", "c:\\code"));
+        cmds.add(new Command(0, "Show C-Drive", "dir", "Lists root of the C-Drive.", "c:\\"));
+        cmds.add(new Command(1, "Show Help File", "type", "Types the content of a help file.", "c:\\code\\backend\\help.md"));
+        cmds.add(new Command(2, "Show Code Folder", "dir", "Lists the content of the code folder.", "c:\\code"));
     }
 
     public String execute(ICommand command) {

@@ -12,7 +12,6 @@ public class CommandController {
     private final CommandService commandService;
 
     CommandController(CommandService commandService) {
-
         this.commandService = commandService;
     }
 
